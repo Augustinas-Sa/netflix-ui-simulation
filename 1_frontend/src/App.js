@@ -1,7 +1,7 @@
 import './App.css';
 
 function App() {
-  return <></>;
+  return <div>Netflix simulation</div>;
 }
 
 export default App;
