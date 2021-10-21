@@ -1,12 +1,7 @@
 import './App.css';
-import CTA from './components/CTA/CTA';
 
 function App() {
-  return (
-    <>
-      <CTA />
-    </>
-  );
+  return <div>Netflix simulation</div>;
 }
 
 export default App;
