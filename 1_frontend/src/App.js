@@ -6,6 +6,8 @@ import AboutUsPage from './pages/AboutUsPage';
 import ServicesPage from './pages/ServicesPage';
 import BlogPage from './pages/BlogPage';
 import ContactPage from './pages/ContactPage';
+import Footer from './components/Footer/Footer';
+import CTA from './components/CTA/CTA';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path='/blog' component={BlogPage} />
           <Route path='/contact' component={ContactPage} />
         </Switch>
+        <CTA />
+        <Footer />
       </Router>
     </>
   );

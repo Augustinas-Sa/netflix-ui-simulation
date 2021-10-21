@@ -24,19 +24,64 @@ const Navbar = () => {
         <nav>
           <Ul>
             <Li>
-              <Link to='/'>Home</Link>
+              <Link
+                to='/'
+                style={{
+                  color: '#000',
+                  textDecoration: 'none',
+                  fontFamily: "'Manrope', sans-serif",
+                }}
+              >
+                Home
+              </Link>
             </Li>
             <Li>
-              <Link to='/about'>About us</Link>
+              <Link
+                to='/about'
+                style={{
+                  color: '#000',
+                  textDecoration: 'none',
+                  fontFamily: "'Manrope', sans-serif",
+                }}
+              >
+                About us
+              </Link>
             </Li>
             <Li>
-              <Link to='/services'>Services</Link>
+              <Link
+                to='/services'
+                style={{
+                  color: '#000',
+                  textDecoration: 'none',
+                  fontFamily: "'Manrope', sans-serif",
+                }}
+              >
+                Services
+              </Link>
             </Li>
             <Li>
-              <Link to='/blog'>Blog</Link>
+              <Link
+                to='/blog'
+                style={{
+                  color: '#000',
+                  textDecoration: 'none',
+                  fontFamily: "'Manrope', sans-serif",
+                }}
+              >
+                Blog
+              </Link>
             </Li>
             <Li>
-              <Link to='/contact'>Contact</Link>
+              <Link
+                to='/contact'
+                style={{
+                  color: '#000',
+                  textDecoration: 'none',
+                  fontFamily: "'Manrope', sans-serif",
+                }}
+              >
+                Contact
+              </Link>
             </Li>
             <p>|</p>
             <Assistance>
@@ -57,12 +102,4 @@ const Navbar = () => {
 
 export default Navbar;
 
-/*
- <div>
-          <AssistanceIcon>
-            <FaPhoneAlt className='phone-alt' />
-          </AssistanceIcon>
-          <p>Road Assistance</p>
-          <p>1800 265 24 52</p>
-        </div>
-*/
+

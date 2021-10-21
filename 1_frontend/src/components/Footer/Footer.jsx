@@ -14,6 +14,12 @@ import {
   StyledP1,
   StyledP2,
   StyledFooterRight,
+  Logo,
+  Ul,
+  Li,
+  StyledP,
+  StyledCopyrightDiv,
+  StyledCopyrightP,
 } from './Footer.style';
 import {
   FaFacebook,
@@ -21,6 +27,7 @@ import {
   FaInstagramSquare,
   FaLinkedin,
 } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -59,8 +66,76 @@ const Footer = () => {
         </StyledFooterRight>
       </StyledFooterTop>
       <StyledFooterBottom>
-        <div></div>
-        <div></div>
+        <Logo>
+          <StyledP>finsweep</StyledP>
+        </Logo>
+        <div>
+          <Ul>
+            <Li>
+              <Link
+                to='/'
+                style={{
+                  color: '#ffffff',
+                  textDecoration: 'none',
+                  fontFamily: "'Manrope', sans-serif",
+                }}
+              >
+                Home
+              </Link>
+            </Li>
+            <Li>
+              <Link
+                to='/about'
+                style={{
+                  color: '#ffffff',
+                  textDecoration: 'none',
+                  fontFamily: "'Manrope', sans-serif",
+                }}
+              >
+                About us
+              </Link>
+            </Li>
+            <Li>
+              <Link
+                to='/services'
+                style={{
+                  color: '#ffffff',
+                  textDecoration: 'none',
+                  fontFamily: "'Manrope', sans-serif",
+                }}
+              >
+                Services
+              </Link>
+            </Li>
+            <Li>
+              <Link
+                to='/blog'
+                style={{
+                  color: '#ffffff',
+                  textDecoration: 'none',
+                  fontFamily: "'Manrope', sans-serif",
+                }}
+              >
+                Blog
+              </Link>
+            </Li>
+            <Li>
+              <Link
+                to='/contact'
+                style={{
+                  color: '#ffffff',
+                  textDecoration: 'none',
+                  fontFamily: "'Manrope', sans-serif",
+                }}
+              >
+                Contact us
+              </Link>
+            </Li>
+          </Ul>
+        </div>
+        <StyledCopyrightDiv>
+          <StyledCopyrightP>@ Copyright Finsweet 2021</StyledCopyrightP>
+        </StyledCopyrightDiv>
       </StyledFooterBottom>
     </StyledFooter>
   );
