@@ -1,7 +1,12 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 
 function App() {
-  return <div>Netflix simulation</div>;
+  return (
+    <>
+      <Footer />
+    </>
+  );
 }
 
 export default App;
